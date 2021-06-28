@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-void main(int argc, char* argv[]) {                       // gcc -o 0 0.c && ./0 0
+#include <stdio.h>                                        // 0.c - a quasi-worm in C; authored by Elliott Maguire
+#include <stdlib.h>                                       //
+void main(int argc, char* argv[]) {                       // Run with `gcc -o 0 0.c && ./0 0`
     FILE *of, *tf;                                        // (o)rigin|(t)arget (f)ile
     int gc;                                               // (g)eneration (c)ounter
     char c, on[4], tn[4], cc[15], cr[6];                  // (o)rigin|(t)arget (n)ame, (c)ommand (c)ompile|(r)un
